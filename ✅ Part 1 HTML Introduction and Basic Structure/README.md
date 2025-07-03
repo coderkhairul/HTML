@@ -84,15 +84,15 @@ This is my first HTML page.
 
 **Md. Khairul Islam** — Aspiring Software Engineer focusing on frontend development.  
 GitHub: [coderkhairul](https://github.com/coderkhairul)  
-LinkedIn: *(আপনার LinkedIn লিংক এখানে দিন, যদি থাকে)*
+LinkedIn: *(https://www.linkedin.com/in/coderkhairul/)*
 
 ---
 
 ## Usage
 
-- Open any `.html` file in a browser or use VS Code Live Server extension for live preview.  
+- Open any `.html` file in a browser or use the VS Code Live Server extension for a live preview.  
 - Practice by modifying and extending examples.  
-- Solve problems under `/problems` folder to sharpen your skills.
+- Solve problems under the `/problems` folder to sharpen your skills.
 
 ---
 
