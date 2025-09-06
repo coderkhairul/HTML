@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Form Example</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form action="/submit" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="hobby">Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="coding"> Coding
+    <input type="checkbox" name="hobby" value="gaming"> Gaming<br><br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="bd">Bangladesh</option>
+      <option value="us">United States</option>
+      <option value="uk">United Kingdom</option>
+    </select><br><br>
+
+    <label for="bio">Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Tell us something about yourself..."></textarea><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
